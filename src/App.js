@@ -49,7 +49,6 @@ function App() {
     const url = "https://mock-data-api.firebaseio.com/chatrooms/-MFZumveIpHH5D_gkUHJ.json"
     fetch(url)
       .then((response) => {
-        console.log("2")
         return response.json()
       })
       .then(data => {
