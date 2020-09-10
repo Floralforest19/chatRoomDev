@@ -56,7 +56,6 @@ function App() {
         console.log("4")
         setChatRoomData(data)
       })
-    console.log("3")
   }
   useEffect(() => {
     handleGetChatRoom()
